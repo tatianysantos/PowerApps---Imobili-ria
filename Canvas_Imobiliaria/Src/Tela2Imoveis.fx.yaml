@@ -1,0 +1,35 @@
+Tela2Imoveis As screen:
+    BackgroundImage: =planodeFundo
+    Fill: =RGBA(136, 160, 209, 1)
+    ImagePosition: =ImagePosition.Fill
+
+    LabelTelaInicial_2 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =35
+        Text: ="Imobiliária Smart"
+        Width: =640
+        Y: =6
+        ZIndex: =5
+
+    Label2_2 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =73
+        Size: =21
+        Text: ="Olá,"&User().FullName
+        Width: =640
+        Y: =1063
+        ZIndex: =6
+
+    Icon10 As icon.ChevronLeft:
+        Color: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.ChevronLeft
+        OnSelect: =Navigate(Tela1)
+        Width: =107
+        Y: =12
+        ZIndex: =7
+

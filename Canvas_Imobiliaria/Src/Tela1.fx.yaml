@@ -1,0 +1,116 @@
+Tela1 As screen:
+    BackgroundImage: =planodeFundo
+    Fill: =RGBA(255, 255, 255, 1)
+    ImagePosition: =ImagePosition.Fill
+
+    LabelTelaInicial As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =35
+        Text: ="Imobiliária Smart"
+        Width: =640
+        Y: =19
+        ZIndex: =5
+
+    Label2 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =99
+        Size: =30
+        Text: ="Olá,"&User().FullName
+        Width: =390
+        X: =17
+        Y: =736
+        ZIndex: =6
+
+    Image7 As image:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =320
+        Image: =User().Image
+        RadiusBottomLeft: =255
+        RadiusBottomRight: =255
+        RadiusTopLeft: =255
+        RadiusTopRight: =255
+        Width: =320
+        X: =116
+        Y: =216
+        ZIndex: =7
+
+    Icon5 As icon.People:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =88
+        Icon: =Icon.People
+        OnSelect: =Navigate(Tela2Clientes)
+        Width: =90
+        X: =47
+        Y: =945
+        ZIndex: =8
+
+    Icon6 As icon.Home:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =88
+        Icon: =Icon.Home
+        OnSelect: =Navigate(Tela2Imoveis)
+        Width: =97
+        X: =272
+        Y: =945
+        ZIndex: =9
+
+    Icon7 As icon.Money:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =87
+        Icon: =Icon.Money
+        OnSelect: =Navigate(Tela3Negocio)
+        Width: =90
+        X: =497
+        Y: =945
+        ZIndex: =10
+
+    Label3 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =82
+        Size: =20
+        Text: ="Clientes"
+        Width: =153
+        X: =34
+        Y: =1044
+        ZIndex: =12
+
+    Label3_1 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =82
+        Size: =20
+        Text: ="Imovéis"
+        Width: =153
+        X: =268
+        Y: =1044
+        ZIndex: =13
+
+    Label3_2 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =82
+        Size: =20
+        Text: ="Negócios"
+        Width: =153
+        X: =465
+        Y: =1044
+        ZIndex: =14
+
+    Image12 As image:
+        Height: =225
+        Image: ='Icone3.pnj'
+        RadiusBottomLeft: =255
+        RadiusBottomRight: =255
+        RadiusTopLeft: =255
+        RadiusTopRight: =255
+        Width: =219
+        X: =421
+        Y: =600
+        ZIndex: =15
+

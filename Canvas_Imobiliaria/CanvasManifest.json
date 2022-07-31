@@ -101,6 +101,9 @@
     "UserLocale": "pt-BR"
   },
   "ScreenOrder": [
-    "Screen1"
+    "Tela1",
+    "Tela2Clientes",
+    "Tela2Imoveis",
+    "Tela3Negocio"
   ]
 }
