@@ -103,14 +103,14 @@ Tela1 As screen:
         ZIndex: =14
 
     Image12 As image:
-        Height: =224
+        Height: =204
         Image: ='Icone3.pnj'
         RadiusBottomLeft: =255
         RadiusBottomRight: =255
         RadiusTopLeft: =255
         RadiusTopRight: =255
-        Width: =238
-        X: =402
-        Y: =591
+        Width: =198
+        X: =426
+        Y: =607
         ZIndex: =15
 

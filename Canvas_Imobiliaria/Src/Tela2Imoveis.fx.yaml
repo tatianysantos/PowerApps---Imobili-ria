@@ -55,7 +55,7 @@ Tela2Imoveis As screen:
             PaddingRight: =0
             PaddingTop: =0
             Size: =25
-            Text: =ThisItem.Conservação
+            Text: =ThisItem.CIDADE
             VerticalAlign: =VerticalAlign.Top
             Width: =Title5.Width
             X: =168
