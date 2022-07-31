@@ -30,6 +30,14 @@
         "CLIENTES formulário principal": "9608023b-930f-ed11-b83d-0022483769b7",
         "Informações": "615d2048-2b3e-4b33-96a6-a8eac76caaf1"
       }
+    },
+    {
+      "Kind": "default.cds_crbcb_corretor_forms",
+      "Namespace": "CORRETORES (Formulários)",
+      "Values": {
+        "CORRETOR formulário principal": "1100e97e-970f-ed11-b83d-0022483769b7",
+        "Informações": "bc2553ef-1254-4033-b691-fa137f8cc638"
+      }
     }
   ]
 }

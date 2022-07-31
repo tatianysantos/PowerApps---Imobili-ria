@@ -1,0 +1,103 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crbcb_corretors",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crbcb_corretor",
+    "Name": "CORRETORES",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Proprietário",
+      "crbcb_corretor_AsyncOperations": "Trabalhos do Sistema",
+      "crbcb_corretor_BulkDeleteFailures": "Falhas da Exclusão em Massa",
+      "crbcb_corretor_DuplicateBaseRecord": "Registros Duplicados (crbcb_corretor_DuplicateBaseRecord)",
+      "crbcb_corretor_DuplicateMatchingRecord": "Registros Duplicados (crbcb_corretor_DuplicateMatchingRecord)",
+      "crbcb_corretor_MailboxTrackingFolders": "Pastas de Acompanhamento Automático da Caixa de Correio",
+      "crbcb_corretor_PrincipalObjectAttributeAccesses": "Compartilhamento de Campo",
+      "crbcb_corretor_ProcessSession": "Sessões de Processo",
+      "crbcb_corretor_SyncErrors": "Erros de Sincronização",
+      "crbcb_corretorid": "CORRETOR",
+      "crbcb_cota": "COTA",
+      "crbcb_cotabatida": "COTA BATIDA",
+      "crbcb_name": "Name",
+      "crbcb_nome": "NOME",
+      "crbcb_telefonecomercial": "TELEFONE COMERCIAL",
+      "crbcb_valorarrecadado": "VALOR ARRECADADO",
+      "createdby": "Criada Por",
+      "createdon": "Data de Criação",
+      "createdonbehalfby": "Criado por (Delegado)",
+      "importsequencenumber": "Número de Sequência de Importação",
+      "modifiedby": "Modificado Por",
+      "modifiedon": "Data de Modificação",
+      "modifiedonbehalfby": "Modificado por (Delegado)",
+      "overriddencreatedon": "Registro Criado em",
+      "owningbusinessunit": "Unidade de Negócios Proprietária",
+      "owningteam": "Equipe Proprietária",
+      "owninguser": "Usuário Proprietário",
+      "smt_crbcb_NEGOCIAO_crbcb_CORRETOR_crbcb_CORRE": "NEGOCIAÇÃOs",
+      "statecode": "Status",
+      "statuscode": "Razão do Status",
+      "timezoneruleversionnumber": "Número de Versão da Regra de Fuso Horário",
+      "utcconversiontimezonecode": "Código de Fuso Horário da Conversão UTC",
+      "versionnumber": "Número da Versão"
+    },
+    "PreferredName": "CORRETORES",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "CORRETORES (Modos de exibição)",
+    "Name": "_crbcb_corretor_views",
+    "RelatedEntityName": "CORRETORES",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "17b0882d-e1d4-4dc8-9131-c2076d96c176": "CORRETORES Ativos(as)",
+      "5cdf241e-980f-ed11-b83d-0022483769b7": "Vendedor",
+      "6104d84d-de14-40f3-860e-719e2b8faa62": "Exibição de Consulta de CORRETOR",
+      "6fe24c01-c87f-4f3d-b7af-ac77b5d5f94e": "CORRETORES Inativos(as)",
+      "8da8d3c2-985c-4873-8223-c6550f7088fc": "Exibição Associada de CORRETOR",
+      "d489e18c-f1e9-4f62-a8aa-19cfd646a585": "Exibição de Localização Avançada de CORRETOR"
+    }
+  },
+  {
+    "DisplayName": "Status (CORRETORES)",
+    "Name": "crbcb_corretor_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Ativo(a)",
+      "1": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "CORRETORES"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "CORRETORES",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razão do Status (CORRETORES)",
+    "Name": "crbcb_corretor_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Ativo(a)",
+      "2": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "CORRETORES"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "CORRETORES",
+    "Type": "OptionSetInfo"
+  }
+]

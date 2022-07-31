@@ -554,19 +554,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela3Negocio.TextFiltro_1.AccessibleLabel"
+                  "fullyQualifiedName": "Tela3Negocio.TextFiltroNEG.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela3Negocio.TextFiltro_1.AccessibleLabel",
+                  "fullyQualifiedName": "Tela3Negocio.TextFiltroNEG.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Tela3Negocio",
-                "type": "Tela3Negocio.TextFiltro_1"
+                "type": "Tela3Negocio.TextFiltroNEG"
               }
             }
           ],
@@ -627,6 +627,126 @@
                 "member": "TabIndex",
                 "module": "Tela3Negocio",
                 "type": "Tela3Negocio.Gallery7Neg"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela4Negocio_Corret.IconCorret.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela4Negocio_Corret.IconCorret.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Tela4Negocio_Corret",
+                "type": "Tela4Negocio_Corret.IconCorret"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela4Negocio_Corret.IconCorret.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela4Negocio_Corret.IconCorret.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela4Negocio_Corret",
+                "type": "Tela4Negocio_Corret.IconCorret"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela4Negocio_Corret.Gallery10Corret.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela4Negocio_Corret.Gallery10Corret.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela4Negocio_Corret",
+                "type": "Tela4Negocio_Corret.Gallery10Corret"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela4Negocio_Corret.Gallery10Corret.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela4Negocio_Corret.Gallery10Corret.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Tela4Negocio_Corret",
+                "type": "Tela4Negocio_Corret.Gallery10Corret"
               }
             }
           ],

@@ -44,7 +44,7 @@ Tela1 As screen:
         Icon: =Icon.People
         OnSelect: =Navigate(Tela2Clientes)
         Width: =90
-        X: =47
+        X: =64
         Y: =945
         ZIndex: =8
 
@@ -54,7 +54,7 @@ Tela1 As screen:
         Icon: =Icon.Home
         OnSelect: =Navigate(Tela2Imoveis)
         Width: =97
-        X: =272
+        X: =255
         Y: =945
         ZIndex: =9
 
@@ -64,7 +64,7 @@ Tela1 As screen:
         Icon: =Icon.Money
         OnSelect: =Navigate(Tela3Negocio)
         Width: =90
-        X: =497
+        X: =480
         Y: =945
         ZIndex: =10
 
@@ -75,7 +75,7 @@ Tela1 As screen:
         Size: =20
         Text: ="Clientes"
         Width: =153
-        X: =34
+        X: =51
         Y: =1044
         ZIndex: =12
 
@@ -86,7 +86,7 @@ Tela1 As screen:
         Size: =20
         Text: ="Imovéis"
         Width: =153
-        X: =268
+        X: =251
         Y: =1044
         ZIndex: =13
 
@@ -98,19 +98,19 @@ Tela1 As screen:
         Size: =20
         Text: ="Negócios"
         Width: =153
-        X: =465
+        X: =448
         Y: =1044
         ZIndex: =14
 
     Image12 As image:
-        Height: =225
+        Height: =224
         Image: ='Icone3.pnj'
         RadiusBottomLeft: =255
         RadiusBottomRight: =255
         RadiusTopLeft: =255
         RadiusTopRight: =255
-        Width: =219
-        X: =421
-        Y: =600
+        Width: =238
+        X: =402
+        Y: =591
         ZIndex: =15
 
