@@ -3,23 +3,147 @@ Tela3Negocio As screen:
     Fill: =RGBA(136, 160, 209, 1)
     ImagePosition: =ImagePosition.Fill
 
-    Label2_3 As label:
-        Align: =Align.Center
-        Color: =RGBA(255, 255, 255, 1)
-        FontWeight: =FontWeight.Bold
-        Height: =73
-        Size: =21
-        Text: ="Olá,"&User().FullName
-        Width: =640
-        Y: =1063
-        ZIndex: =6
+    "Gallery7Neg As gallery.'BrowseLayout_Vertical_ThreeTextOneImageVariant_ver4.0'":
+        BorderColor: =RGBA(255, 255, 255, 1)
+        Height: =867
+        Items: =Negociações
+        Layout: =Layout.Vertical
+        TemplatePadding: =0
+        TemplateSize: =218
+        Y: =269
+        ZIndex: =1
 
-    Icon11 As icon.ChevronLeft:
+        ImageNEG As image:
+            Height: =167
+            Image: ='Cliente.jpeg'
+            OnSelect: =Select(Parent)
+            Width: =247
+            Y: =16
+            ZIndex: =1
+
+        TitleNEG As label:
+            Color: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =70
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =38
+            Text: =ThisItem.Name
+            VerticalAlign: =VerticalAlign.Top
+            Width: =406
+            X: =229
+            Y: =16
+            ZIndex: =2
+
+        SubtitleNEG As label:
+            Color: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =30
+            Text: =ThisItem.'Data de Criação'
+            VerticalAlign: =VerticalAlign.Top
+            Width: =TitleNEG.Width
+            X: =TitleNEG.X
+            Y: =TitleNEG.Y + TitleNEG.Height + 2
+            ZIndex: =3
+
+        valorNEG As label:
+            Color: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =37
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =25
+            Text: =ThisItem.'Taxa de Câmbio'
+            VerticalAlign: =VerticalAlign.Top
+            Width: =366
+            X: =SubtitleNEG.X
+            Y: =146
+            ZIndex: =4
+
+        NextArrow5 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =60
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
+            PaddingBottom: =10
+            PaddingLeft: =10
+            PaddingRight: =10
+            PaddingTop: =10
+            TabIndex: =0
+            Tooltip: ="Exibir detalhes do item"
+            Width: =60
+            X: =Parent.TemplateWidth - Self.Width - 5
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =5
+
+        Separator5 As rectangle:
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - 1
+            ZIndex: =6
+
+    Icon10_1 As icon.ChevronLeft:
         Color: =RGBA(255, 255, 255, 1)
-        Height: =70
         Icon: =Icon.ChevronLeft
         OnSelect: =Navigate(Tela1)
-        Width: =90
-        Y: =6
+        Width: =107
+        Y: =12
         ZIndex: =7
+
+    TextFiltro_1 As text:
+        Default: =
+        Fill: =RGBA(215, 223, 240, 1)
+        Height: =75
+        HintText: ="Insira um filtro"
+        PaddingBottom: =4
+        PaddingTop: =4
+        Size: =25
+        Width: =423
+        X: =190
+        Y: =150
+        ZIndex: =9
+
+    Label4Proc_1 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =75
+        Size: =20
+        Text: |-
+            ="Procurar por:"
+        Width: =220
+        Y: =150
+        ZIndex: =10
+
+    Label5Iocal_1 As label:
+        Align: =Align.Right
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =92
+        LineHeight: =1.5
+        Size: =30
+        Text: ="Negócios"
+        Underline: =true
+        Width: =575
+        X: =54
+        ZIndex: =11
+
+    IconPesq_1 As icon.Search:
+        Icon: =Icon.Search
+        X: =549
+        Y: =155
+        ZIndex: =12
 

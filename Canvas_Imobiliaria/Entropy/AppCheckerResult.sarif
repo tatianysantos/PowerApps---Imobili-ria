@@ -194,19 +194,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela2Clientes.Gallery4.AccessibleLabel"
+                  "fullyQualifiedName": "Tela2Clientes.GalleryClient4.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela2Clientes.Gallery4.AccessibleLabel",
+                  "fullyQualifiedName": "Tela2Clientes.GalleryClient4.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Tela2Clientes",
-                "type": "Tela2Clientes.Gallery4"
+                "type": "Tela2Clientes.GalleryClient4"
               }
             }
           ],
@@ -224,19 +224,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela2Clientes.Gallery4.TabIndex"
+                  "fullyQualifiedName": "Tela2Clientes.GalleryClient4.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela2Clientes.Gallery4.TabIndex",
+                  "fullyQualifiedName": "Tela2Clientes.GalleryClient4.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Tela2Clientes",
-                "type": "Tela2Clientes.Gallery4"
+                "type": "Tela2Clientes.GalleryClient4"
               }
             }
           ],
@@ -374,49 +374,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela3Negocio.Icon11.AccessibleLabel"
+                  "fullyQualifiedName": "Tela3Negocio.Icon10_1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela3Negocio.Icon11.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela3Negocio",
-                "type": "Tela3Negocio.Icon11"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Tela3Negocio.Icon11.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Tela3Negocio.Icon11.TabIndex",
+                  "fullyQualifiedName": "Tela3Negocio.Icon10_1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Tela3Negocio",
-                "type": "Tela3Negocio.Icon11"
+                "type": "Tela3Negocio.Icon10_1"
               }
             }
           ],
@@ -428,6 +398,36 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela3Negocio.Icon10_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela3Negocio.Icon10_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela3Negocio",
+                "type": "Tela3Negocio.Icon10_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -554,6 +554,96 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Tela3Negocio.TextFiltro_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela3Negocio.TextFiltro_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela3Negocio",
+                "type": "Tela3Negocio.TextFiltro_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela3Negocio.Gallery7Neg.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela3Negocio.Gallery7Neg.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela3Negocio",
+                "type": "Tela3Negocio.Gallery7Neg"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela3Negocio.Gallery7Neg.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela3Negocio.Gallery7Neg.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Tela3Negocio",
+                "type": "Tela3Negocio.Gallery7Neg"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.appTelaInicial"
                 }
               ],
@@ -655,6 +745,36 @@
               },
               "properties": {
                 "member": "apto3",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedMediaResources",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.casa2"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.casa2",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "casa2",
                 "module": "App",
                 "type": "App"
               }
