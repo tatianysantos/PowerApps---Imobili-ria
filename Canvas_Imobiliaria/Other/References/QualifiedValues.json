@@ -1,0 +1,35 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_crbcb_cliente_forms",
+      "Namespace": "CLIENTES (Formulários)",
+      "Values": {
+        "CLIENTES formulário principal": "9608023b-930f-ed11-b83d-0022483769b7",
+        "Informações": "615d2048-2b3e-4b33-96a6-a8eac76caaf1"
+      }
+    },
+    {
+      "Kind": "default.cds_crbcb_imoveis_forms",
+      "Namespace": "IMOVEIS (Formulários)",
+      "Values": {
+        "Dados do Imóvel ": "9a79fd35-d4f1-4851-8a75-15c4e34ecf5b",
+        "Informações": "b8f2515b-39d1-4a74-84a2-cf0d7bf59a9f"
+      }
+    },
+    {
+      "Kind": "default.cds_smt_negociacao_forms",
+      "Namespace": "Negociações (Formulários)",
+      "Values": {
+        "Informações": "cc93e57d-e7c8-4ff8-860c-b017c428ef70"
+      }
+    },
+    {
+      "Kind": "default.cds_crbcb_cliente_forms",
+      "Namespace": "CLIENTESs (Formulários)",
+      "Values": {
+        "CLIENTES formulário principal": "9608023b-930f-ed11-b83d-0022483769b7",
+        "Informações": "615d2048-2b3e-4b33-96a6-a8eac76caaf1"
+      }
+    }
+  ]
+}

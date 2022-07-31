@@ -1,0 +1,110 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "smt_negociacaos",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "smt_negociacao",
+    "MaxGetRowsCount": 500,
+    "Name": "Negociações",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Proprietário",
+      "createdby": "Criada Por",
+      "createdon": "Data de Criação",
+      "createdonbehalfby": "Criado por (Delegado)",
+      "exchangerate": "Taxa de Câmbio",
+      "importsequencenumber": "Número de Sequência de Importação",
+      "modifiedby": "Modificado Por",
+      "modifiedon": "Data de Modificação",
+      "modifiedonbehalfby": "Modificado por (Delegado)",
+      "overriddencreatedon": "Registro Criado em",
+      "owningbusinessunit": "Unidade de Negócios Proprietária",
+      "owningteam": "Equipe Proprietária",
+      "owninguser": "Usuário Proprietário",
+      "smt_contratoate": "Contrato Até",
+      "smt_contratode": "Contrato DE",
+      "smt_corretor": "Corretor",
+      "smt_imovel": "Imóvel",
+      "smt_name": "Name",
+      "smt_negociacao_AsyncOperations": "Trabalhos do Sistema",
+      "smt_negociacao_BulkDeleteFailures": "Falhas da Exclusão em Massa",
+      "smt_negociacao_DuplicateBaseRecord": "Registros Duplicados (smt_negociacao_DuplicateBaseRecord)",
+      "smt_negociacao_DuplicateMatchingRecord": "Registros Duplicados (smt_negociacao_DuplicateMatchingRecord)",
+      "smt_negociacao_MailboxTrackingFolders": "Pastas de Acompanhamento Automático da Caixa de Correio",
+      "smt_negociacao_PrincipalObjectAttributeAccesses": "Compartilhamento de Campo",
+      "smt_negociacao_ProcessSession": "Sessões de Processo",
+      "smt_Negociacao_smt_Imovel_smt_Imovel": "Imóveis",
+      "smt_negociacao_SyncErrors": "Erros de Sincronização",
+      "smt_negociacaoid": "Negociação",
+      "smt_proprietario": "Proprietário ",
+      "smt_tiponegociacao": "Tipo Negociação",
+      "smt_valor": "Valor",
+      "smt_valor_base": "Valor (Base)",
+      "smt_valorpormes": "Valor por mês",
+      "smt_valorpormes_base": "Valor por mês (Base)",
+      "statecode": "Status",
+      "statuscode": "Razão do Status",
+      "timezoneruleversionnumber": "Número de Versão da Regra de Fuso Horário",
+      "transactioncurrencyid": "Moeda",
+      "utcconversiontimezonecode": "Código de Fuso Horário da Conversão UTC",
+      "versionnumber": "Número da Versão"
+    },
+    "PreferredName": "Negociações",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Negociações (Modos de exibição)",
+    "Name": "_smt_negociacao_views",
+    "RelatedEntityName": "Negociações",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "26c3d258-d599-4bd2-bb51-8916586ee77b": "Negociações Inativos(as)",
+      "44d9cd64-277b-401f-a991-1d187f30c8ac": "Negociações Ativos(as)",
+      "9fe2615a-cb32-4383-9a96-494e2b2890be": "Exibição Associada de Negociação",
+      "a4722918-d34c-4cb7-9aa8-f4c2c9ea6424": "Exibição de Localização Avançada de Negociação",
+      "c8eb1104-16d8-40e7-a293-c623bf8d22dd": "Exibição de Consulta de Negociação"
+    }
+  },
+  {
+    "DisplayName": "Status (Negociações)",
+    "Name": "smt_negociacao_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Ativo(a)",
+      "1": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Negociações"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Negociações",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razão do Status (Negociações)",
+    "Name": "smt_negociacao_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Ativo(a)",
+      "2": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Negociações"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Negociações",
+    "Type": "OptionSetInfo"
+  }
+]

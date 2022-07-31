@@ -1,0 +1,55 @@
+{
+  "ComponentIndexes": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Screen1": 3
+  },
+  "FunctionParamsInvariantScripts": {},
+  "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "07/31/2022 13:16:57",
+  "IsLegacyComponentAllowGlobalScopeCase": false,
+  "LocalConnectionIDReferences": {},
+  "LocalDatabaseReferencesAsEmpty": false,
+  "LocalResourceFileNames": {},
+  "LocalResourceRootPaths": {},
+  "OldLogoFileName": "fc2o5dlg.jpg",
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
+  "OrderDataSource": {
+    "CLIENTES": 10,
+    "CLIENTES\\crbcb_cliente_statecode": 0,
+    "CLIENTES\\crbcb_cliente_statuscode": 1,
+    "CLIENTES\\default.cds_crbcb_cliente_views": 7,
+    "IMOVEIS": 11,
+    "IMOVEIS\\crbcb_imoveis_crbcb_conservacao": 2,
+    "IMOVEIS\\crbcb_imoveis_statecode": 3,
+    "IMOVEIS\\crbcb_imoveis_statuscode": 4,
+    "IMOVEIS\\default.cds_crbcb_imoveis_views": 8,
+    "Negociações": 12,
+    "Negociações\\default.cds_smt_negociacao_views": 9,
+    "Negociações\\smt_negociacao_statecode": 5,
+    "Negociações\\smt_negociacao_statuscode": 6
+  },
+  "OrderGroupControls": {},
+  "OrderPcfTemplate": {},
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "Screen1": 0
+  },
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0
+  },
+  "RuleScreenIdWithoutScreen": {},
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0535653,
+    "ControlCount": {
+      "screen": 1
+    },
+    "DeserializationLoadTime": 1.2903141,
+    "ErrorCount": 0
+  },
+  "WasLocalDatabaseReferencesEmpty": false
+}

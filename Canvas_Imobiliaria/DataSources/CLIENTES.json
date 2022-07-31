@@ -1,0 +1,111 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crbcb_clientes",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crbcb_cliente",
+    "MaxGetRowsCount": 500,
+    "Name": "CLIENTES",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Proprietário",
+      "crbcb_bairro": "BAIRRO",
+      "crbcb_cep": "CEP",
+      "crbcb_cidade": "CIDADE",
+      "crbcb_cliente_AsyncOperations": "Trabalhos do Sistema",
+      "crbcb_cliente_BulkDeleteFailures": "Falhas da Exclusão em Massa",
+      "crbcb_cliente_MailboxTrackingFolders": "Pastas de Acompanhamento Automático da Caixa de Correio",
+      "crbcb_cliente_PrincipalObjectAttributeAccesses": "Compartilhamento de Campo",
+      "crbcb_cliente_ProcessSession": "Sessões de Processo",
+      "crbcb_cliente_SyncErrors": "Erros de Sincronização",
+      "crbcb_cliente_Teams": "Equipes",
+      "crbcb_clienteid": "CLIENTES",
+      "crbcb_cnpj": "CNPJ",
+      "crbcb_complemento": "COMPLEMENTO",
+      "crbcb_email": "EMAIL",
+      "crbcb_estado": "ESTADO",
+      "crbcb_nome": "NOME",
+      "crbcb_nome_2": "Nome",
+      "crbcb_numero": "NUMERO",
+      "crbcb_rua": "RUA",
+      "crbcb_telefone": "TELEFONE (crbcb_telefone)",
+      "createdby": "Criada Por",
+      "createdon": "Data de Criação",
+      "createdonbehalfby": "Criado por (Delegado)",
+      "importsequencenumber": "Número de Sequência de Importação",
+      "modifiedby": "Modificado Por",
+      "modifiedon": "Data de Modificação",
+      "modifiedonbehalfby": "Modificado por (Delegado)",
+      "overriddencreatedon": "Registro Criado em",
+      "owningbusinessunit": "Unidade de Negócios Proprietária",
+      "owningteam": "Equipe Proprietária",
+      "owninguser": "Usuário Proprietário",
+      "smt_crbcb_CLIENTE_crbcb_CLIENTE_crbcb_IMOVEIS": "IMOVEIS",
+      "smt_crbcb_PROPRIETARIO": "PROPRIETARIO",
+      "smt_telefone": "TELEFONE (smt_telefone)",
+      "statecode": "Status",
+      "statuscode": "Razão do Status",
+      "timezoneruleversionnumber": "Número de Versão da Regra de Fuso Horário",
+      "utcconversiontimezonecode": "Código de Fuso Horário da Conversão UTC",
+      "versionnumber": "Número da Versão"
+    },
+    "PreferredName": "CLIENTES",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "CLIENTES (Modos de exibição)",
+    "Name": "_crbcb_cliente_views",
+    "RelatedEntityName": "CLIENTES",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "0ee4fc6e-cfd6-4c71-8359-e231a00d753f": "CLIENTESs Inativos(as)",
+      "1908e7c8-dbdb-47aa-a78f-958ba40b8770": "Exibição de Consulta de CLIENTES",
+      "920a5832-735c-4ab3-a26f-f268d1d4b816": "Exibição Associada de CLIENTES",
+      "b479e7ba-4b5b-46d1-a43d-10d048f467b3": "Exibição de Localização Avançada de CLIENTES",
+      "cff44ca8-5366-4c3c-9b4d-444a5715ded6": "CLIENTES Ativos(as)",
+      "e21dca26-fd0f-ed11-b83d-0022483769b7": "Principais dados"
+    }
+  },
+  {
+    "DisplayName": "Status (CLIENTES)",
+    "Name": "crbcb_cliente_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Ativo(a)",
+      "1": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "CLIENTES"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "CLIENTES",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razão do Status (CLIENTES)",
+    "Name": "crbcb_cliente_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Ativo(a)",
+      "2": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "CLIENTES"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "CLIENTES",
+    "Type": "OptionSetInfo"
+  }
+]
