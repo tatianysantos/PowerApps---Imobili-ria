@@ -5,15 +5,16 @@ Tela2Clientes As screen:
 
     "Gallery4 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
         Fill: =RGBA(215, 223, 240, 1)
-        Height: =1036
-        Items: =Filter(CLIENTES, 'CLIENTES (Modos de exibição)'.'Principais dados')
+        Height: =792
+        Items: =Filter(CLIENTES,StartsWith(NOME,Text2pesq.Text))
         Layout: =Layout.Vertical
         TemplatePadding: =0
-        TemplateSize: =267
-        Y: =100
+        TemplateSize: =263
+        Width: =636
+        Y: =300
         ZIndex: =1
 
-        Title4 As label:
+        nomeT4 As label:
             FontWeight: =FontWeight.Bold
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
@@ -25,8 +26,8 @@ Tela2Clientes As screen:
             Text: =ThisItem.NOME
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
-            X: =32
-            Y: =16
+            X: =17
+            Y: =17
             ZIndex: =1
 
         Subtitle3 As label:
@@ -36,16 +37,16 @@ Tela2Clientes As screen:
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Size: =30
+            Size: =25
             Text: =ThisItem.'TELEFONE (smt_telefone)'
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
-            X: =32
-            Y: =Title4.Y + Title4.Height + 2
+            X: =100
+            Y: =99
             ZIndex: =2
 
         Body2 As label:
-            Height: =Self.Size * 4
+            Height: =53
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
@@ -55,43 +56,30 @@ Tela2Clientes As screen:
             Text: =ThisItem.EMAIL
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
-            X: =32
-            Y: =Subtitle3.Y + Subtitle3.Height + 4
+            X: =100
+            Y: =180
             ZIndex: =3
-
-        NextArrow3 As icon.ChevronRight:
-            AccessibleLabel: =Self.Tooltip
-            Height: =60
-            Icon: =Icon.ChevronRight
-            OnSelect: =Select(Parent)
-            PaddingBottom: =10
-            PaddingLeft: =10
-            PaddingRight: =10
-            PaddingTop: =10
-            TabIndex: =0
-            Tooltip: ="Exibir detalhes do item"
-            Width: =60
-            X: =Parent.TemplateWidth - Self.Width - 5
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =4
 
         Separator3 As rectangle:
             Height: =1
             OnSelect: =Select(Parent)
-            Width: =Parent.TemplateWidth
+            Width: =640
             Y: =Parent.TemplateHeight - 1
             ZIndex: =5
 
-    LabelTelaInicial_1 As label:
-        Align: =Align.Center
-        Color: =RGBA(255, 255, 255, 1)
-        FontWeight: =FontWeight.Bold
-        Height: =70
-        Size: =35
-        Text: ="Imobiliária Smart"
-        Width: =640
-        Y: =6
-        ZIndex: =5
+        Icon14 As icon.Phone:
+            Icon: =Icon.Phone
+            OnSelect: =Select(Parent)
+            X: =16
+            Y: =81
+            ZIndex: =6
+
+        Icon15 As icon.Mail:
+            Icon: =Icon.Mail
+            OnSelect: =Select(Parent)
+            X: =16
+            Y: =175
+            ZIndex: =7
 
     Icon8 As icon.ChevronLeft:
         Color: =RGBA(255, 255, 255, 1)
@@ -100,4 +88,41 @@ Tela2Clientes As screen:
         OnSelect: =Navigate(Tela1)
         Width: =79
         ZIndex: =6
+
+    Text2pesq As text:
+        Default: =""
+        Height: =80
+        HintText: ="Insira um filtro"
+        Size: =21
+        Width: =640
+        Y: =183
+        ZIndex: =7
+
+    Label6 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =70
+        Size: =25
+        Text: |-
+            ="Procurar por aqui:"
+        Width: =640
+        Y: =113
+        ZIndex: =8
+
+    Icon13 As icon.Search:
+        Icon: =Icon.Search
+        X: =556
+        Y: =199
+        ZIndex: =9
+
+    Label7 As label:
+        Align: =Align.Right
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =100
+        Size: =30
+        Text: ="Clientes"
+        Underline: =true
+        Width: =447
+        X: =193
+        ZIndex: =10
 

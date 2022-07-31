@@ -3,28 +3,6 @@ Tela2Imoveis As screen:
     Fill: =RGBA(136, 160, 209, 1)
     ImagePosition: =ImagePosition.Fill
 
-    LabelTelaInicial_2 As label:
-        Align: =Align.Center
-        Color: =RGBA(255, 255, 255, 1)
-        FontWeight: =FontWeight.Bold
-        Height: =70
-        Size: =35
-        Text: ="Imobiliária Smart"
-        Width: =640
-        Y: =6
-        ZIndex: =5
-
-    Label2_2 As label:
-        Align: =Align.Center
-        Color: =RGBA(255, 255, 255, 1)
-        FontWeight: =FontWeight.Bold
-        Height: =73
-        Size: =21
-        Text: ="Olá,"&User().FullName
-        Width: =640
-        Y: =1063
-        ZIndex: =6
-
     Icon10 As icon.ChevronLeft:
         Color: =RGBA(255, 255, 255, 1)
         Icon: =Icon.ChevronLeft
@@ -32,4 +10,121 @@ Tela2Imoveis As screen:
         Width: =107
         Y: =12
         ZIndex: =7
+
+    "Gallery5Imov As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+        Height: =807
+        Items: =Filter(IMOVEIS,StartsWith('PROPRIETARIO (crbcb_proprietario)',TextFiltro.Text))
+        Layout: =Layout.Vertical
+        TemplatePadding: =0
+        TemplateSize: =Min(160, Self.Height - 60)
+        Y: =268
+        ZIndex: =8
+
+        Image14 As image:
+            Height: =128
+            Image: ='busca.jpeg'
+            OnSelect: =Select(Parent)
+            Width: =128
+            X: =16
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =1
+
+        Title5 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =35
+            Text: =ThisItem.'PROPRIETARIO (crbcb_proprietario)'
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - Image14.Width - 104
+            X: =Image14.X + Image14.Width + 24
+            Y: =44
+            ZIndex: =2
+
+        Subtitle4 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =25
+            Text: =ThisItem.Conservação
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Title5.Width
+            X: =168
+            Y: =99
+            ZIndex: =3
+
+        NextArrow4 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            Height: =60
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
+            PaddingBottom: =10
+            PaddingLeft: =10
+            PaddingRight: =10
+            PaddingTop: =10
+            TabIndex: =0
+            Tooltip: ="Exibir detalhes do item"
+            Width: =60
+            X: =Parent.TemplateWidth - Self.Width - 5
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =4
+
+        Separator4 As rectangle:
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - 1
+            ZIndex: =5
+
+    TextFiltro As text:
+        Default: =
+        Fill: =RGBA(215, 223, 240, 1)
+        Height: =75
+        HintText: ="Insira um filtro"
+        PaddingBottom: =4
+        PaddingTop: =4
+        Size: =25
+        Width: =423
+        X: =190
+        Y: =150
+        ZIndex: =9
+
+    Label4Proc As label:
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =75
+        Size: =20
+        Text: |-
+            ="Procurar por:"
+        Width: =220
+        Y: =150
+        ZIndex: =10
+
+    Label5Iocal As label:
+        Align: =Align.Right
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =92
+        LineHeight: =1.5
+        Size: =30
+        Text: ="Imóveis"
+        Underline: =true
+        Width: =575
+        X: =54
+        ZIndex: =11
+
+    IconPesq As icon.Search:
+        Icon: =Icon.Search
+        X: =549
+        Y: =155
+        ZIndex: =12
 

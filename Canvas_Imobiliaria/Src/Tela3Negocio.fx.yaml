@@ -3,17 +3,6 @@ Tela3Negocio As screen:
     Fill: =RGBA(136, 160, 209, 1)
     ImagePosition: =ImagePosition.Fill
 
-    LabelTelaInicial_3 As label:
-        Align: =Align.Center
-        Color: =RGBA(255, 255, 255, 1)
-        FontWeight: =FontWeight.Bold
-        Height: =70
-        Size: =35
-        Text: ="Imobiliária Smart"
-        Width: =640
-        Y: =6
-        ZIndex: =5
-
     Label2_3 As label:
         Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
