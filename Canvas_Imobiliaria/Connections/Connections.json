@@ -1,1 +1,59 @@
-{}
+{
+  "0c3349d2-4dee-40bd-b81f-5a10a3f689c7": {
+    "connectionParameters": {
+      "workFlowCallbackUri": "https://prod-26.brazilsouth.logic.azure.com:443/workflows/f6920015607147e7a0e5583fa0d7aeb6/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=AsTaK3IfJ2L-wz3GtoBVtDYyR2or7TMcksEC9DO6eRE",
+      "workflowEndpoint": "/subscriptions/9c6ca5c2-db3d-463a-9041-8fae10884f22/resourceGroups/b45820f7456a4061a84c71d6fa0d1461-b4585d8bb77741b5a8b1cf3afc376d28/providers/Microsoft.Logic/workflows/364ac3b7-8fc2-461f-ab0c-3961dc287343",
+      "workflowName": "364ac3b7-8fc2-461f-ab0c-3961dc287343",
+      "workflowPath": "/subscriptions/9c6ca5c2-db3d-463a-9041-8fae10884f22/resourceGroups/b45820f7456a4061a84c71d6fa0d1461-b4585d8bb77741b5a8b1cf3afc376d28/providers/Microsoft.Logic/workflows/364ac3b7-8fc2-461f-ab0c-3961dc287343"
+    },
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1534/1.0.1534.2605/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "609c7fb1-5595-452b-b713-85ca03ae9715": {
+          "value": "shared_sendmail"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "364ac3b7-8fc2-461f-ab0c-3961dc287343"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_sendmail": {
+          "value": "609c7fb1-5595-452b-b713-85ca03ae9715"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "364ac3b7-8fc2-461f-ab0c-3961dc287343"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "PowerApp->Enviarumanotificaçãoporemail(V3)–2"
+    ],
+    "dependencies": {
+      "shared_sendmail": "609c7fb1-5595-452b-b713-85ca03ae9715"
+    },
+    "dependents": [],
+    "id": "0c3349d2-4dee-40bd-b81f-5a10a3f689c7"
+  },
+  "609c7fb1-5595-452b-b713-85ca03ae9715": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "displayName": "Email",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1528/1.0.1528.2589/sendmail/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sendmail"
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "0c3349d2-4dee-40bd-b81f-5a10a3f689c7"
+    ],
+    "id": "609c7fb1-5595-452b-b713-85ca03ae9715"
+  }
+}

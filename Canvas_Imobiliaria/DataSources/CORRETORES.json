@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "crbcb_corretor",
+    "MaxGetRowsCount": 500,
     "Name": "CORRETORES",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Proprietário",

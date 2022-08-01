@@ -81,3 +81,13 @@ Tela4Negocio_Corret As screen:
         X: =210
         ZIndex: =11
 
+    Icon1 As icon.LikeDislike:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =94
+        Icon: =Icon.LikeDislike
+        OnSelect: =Navigate(Tela1, ScreenTransition.Fade)
+        Width: =97
+        X: =492
+        Y: =1018
+        ZIndex: =12
+

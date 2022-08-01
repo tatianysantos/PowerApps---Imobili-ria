@@ -1,0 +1,10 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_logicflows",
+    "FlowNameId": "364ac3b7-8fc2-461f-ab0c-3961dc287343",
+    "Name": "PowerApp->Enviarumanotificaçãoporemail(V3)–2",
+    "ServiceKind": "ConnectedWadl",
+    "Type": "ServiceInfo",
+    "WorkflowEntityId": null
+  }
+]
